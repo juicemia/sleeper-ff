@@ -19,7 +19,7 @@ pip install -r requirements.txt
 # Download the player database, you should only do this once per day:
 curl "https://api.sleeper.app/v1/players/nfl" > players.json
 
-./main.py --username MY_SLEEPER_USERNAME
+./main.py --username MY_SLEEPER_USERNAME --league MY_LEAGUE
 ```
 
 Play around with the script and see what you can do.
